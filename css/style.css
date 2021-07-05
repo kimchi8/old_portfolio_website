@@ -503,7 +503,7 @@ body{
 }
 
 .work-image-container{
-    width: 20vw;
+    width: 30vw;
     height: 1vw;
     margin-left: 10vw;
     margin-top: 10vw;
@@ -517,27 +517,30 @@ body{
 }
 
 .work-text-container{
-    background-color: pink;
     width: 40vw;
     margin-left: 50vw;
-    margin-top: 10vw;
+    margin-top: 8vh;
     position: absolute;
     z-index: 1;
+    font-size: 18px;
+    text-align: left;
+    line-height: 5vh;
+   
 }
 
 .work-front-1{
     position: absolute;
     z-index: 1;
-    width: 20vw;
+    width: 30vw;
     background-color: transparent;
-    margin-top: 27vw;
-    margin-left: 10vw;
+    margin-top: 35vw;
+    margin-left: 13vw;
 }
 .work-back-1{
     position: absolute;
     z-index: 0;
     width: 25vw;
-    margin-top: 15vw;
+    margin-top: 25vw;
     background-color: transparent;
 }
 
@@ -546,25 +549,25 @@ body{
     z-index: 1;
     width: 10vw;
     background-color: transparent;
-    margin-top: 27vw;
+    margin-top: 76vh;
     margin-left: 8vw;
 }
 .work-back-2{
     position: absolute;
     z-index: 0;
-    width: 35vw;
+    width: 40vw;
     margin-top: 5vw;
-    margin-left: 3vw;
+    margin-left: 5vw;
     background-color: transparent;
 }
 
 .work-front-3{
     position: absolute;
     z-index: 1;
-    width: 25vw;
+    width: 32vw;
     background-color: transparent;
     margin-top: 10vw;
-    margin-left: 8vw;
+    margin-left: 32vw;
 }
 .work-back-3{
     position: absolute;
