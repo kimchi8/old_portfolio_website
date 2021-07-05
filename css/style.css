@@ -7,7 +7,9 @@
     position: relative; 
     background-color: transparent;
 }
-
+.home-section-2{
+   margin-bottom: 30vh;
+}
 
 #text-box-1{
     position: absolute;
@@ -112,6 +114,7 @@ nav{
     width: 100%;
     position: relative; 
     background-color: transparent;
+    margin-bottom: 10vh;
 }
 
 .postcard-box{
@@ -300,7 +303,8 @@ i{
     height: 28vw;
     width: 100%;
     background-color: #6B715C;
-    z-index: 0;
+    z-index: 0s;
+    
 }
 
 
@@ -397,6 +401,7 @@ body{
 .nav-tags{
     background: transparent;
     margin-top: 2vw;
+    bottom: 0;
 }
 
 /*new stuff below here is from About page*/
@@ -432,12 +437,14 @@ body{
 
     width: fit-content;
     margin-top: -8vw;
+    margin-bottom: 30vh;
 }
 
 .hobbies{
     width: fit-content;
     margin-top: -10vw; 
-    margin-bottom: -10vw;
+    margin-bottom: 22vw;
+   
 }
 
 .description-container-right{
