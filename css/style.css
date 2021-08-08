@@ -77,7 +77,7 @@ li{
 
 a.active{
     color:#283719;
-    padding: 0px 50px;
+    padding: 0px 70px;
     background-color: transparent;
 }
 
@@ -85,7 +85,7 @@ a.nav-bar{
     display: inline-block;
     color: darkgrey;
     text-decoration: none;
-    padding: 0px 50px;
+    padding: 0px 70px;
     background-color: transparent;
 
 }
@@ -234,10 +234,12 @@ i{
 }
 
 .subtitle-2{
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-family: 'Roboto', sans-serif;
     background: transparent;
     padding-top: 2vw;
+    text-align: left;
+    padding-left: 15vw;
 }
 
 .subtitle-3{
