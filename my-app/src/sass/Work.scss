@@ -1,0 +1,136 @@
+.work-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12em 0 0 5em;
+
+}
+
+.work-component{
+    &.two{
+        margin-top: 32em;
+    }
+
+    &.three{
+        margin-top: 32em;
+    }
+
+    &.four{
+        margin-top: 32em;
+    }
+
+    &.five{
+        margin-top: 33em;
+    }
+}
+
+.polaroid-mini{
+    border-radius: 2em;
+    width: 25em;
+    height: 20em;
+    position: absolute;
+
+    &.front {
+        background-color: white;
+        left: 7em;
+        top: 12em;
+        position: absolute;
+        z-index: 1;
+
+       
+
+        &.two{        
+            top: 52em;
+            left: 7em;
+        }
+
+        &.three{
+            top: 92em;
+            left: 7em;
+        }
+
+        &.four{
+            top: 132em;
+            left: 7em;
+        }
+    
+        &.five{
+            top: 172em;
+            left: 7em;
+        }
+    }
+
+    &.back {
+        background-color: black;
+        left: 6em;
+        top: 13em;
+        position: absolute;
+        z-index: 0;
+    }
+
+    &.one{
+        width: 25em;
+        height: 25em;
+    }
+
+    &.two{        
+        top: 53em;
+        left: 6em;
+    }
+
+    &.three{
+        top: 93em;
+        left: 6em;
+        width: 25em;
+        height: 25em;
+    }
+
+    &.four{
+        top: 133em;
+        left: 6em;
+        width: 25em;
+        height: 25em;
+    }
+
+    &.five{
+        top: 173em;
+        left: 6em;
+        width: 25em;
+        height: 25em;
+    }
+}
+
+.side-text{
+    margin: -5em 0 0 40em;
+    width: 40%;
+}
+
+.work-title{
+    margin-bottom: .5em;
+}
+.date{
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+
+#work-photo {
+    width: 25em;
+    height: 25em;
+    border-radius: 2em;
+    border: 4px solid black;
+}
+
+#ventures-photo{
+    width: 25em;
+    height: 20em;
+    border-radius: 2em;
+    border: 4px solid black;
+}
+
+#audeara-photo{
+    width: 25em;
+    height: 25em;
+    border-radius: 2em;
+    border: 4px solid black;
+}
+

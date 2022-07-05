@@ -1,0 +1,102 @@
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.home-container {
+    margin: 12em 0 0 2em;
+    padding: 5em;
+    width: 35%;
+    font-family: 'Nunito', sans-serif;
+    white-space: pre-line;
+}
+
+.polaroid-container {
+    display: flex;
+}
+
+.polaroid {
+    border-radius: 2em;
+    border: 4px solid black;
+    width: 25em;
+    height: 30em;
+    position: absolute;
+
+    &.single-front {
+        background-color: white;
+        left: 7em;
+        top: 12em;
+        position: absolute;
+        z-index: 1;
+    }
+
+    &.single-back {
+        background-color: black;
+        left: 6em;
+        top: 13em;
+        position: absolute;
+        z-index: 0;
+    }
+
+
+    &.front {
+        background-color: #ffffff;
+        right: 17em;
+        top: 12em;
+
+        z-index: 2;
+
+    }
+
+    &.back {
+        background-color: #272838;
+        right: 14em;
+        top: 14em;
+        z-index: 1;
+    }
+}
+
+#code-photo {
+    width: 3.5em;
+    margin: 2em 0 0 19em;
+}
+
+#wave-one {
+    width: 7em;
+    margin: -5em 0 0 -6em;
+}
+
+#wave-two {
+    width: 7em;
+    margin: 24em 0 0 22em;
+}
+
+.home-title {
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.home-subtext {
+    margin-top: .7em;
+
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#polaroid-frame {
+    stroke-dasharray: 2500;
+    // stroke-dashoffset: 000;
+    animation: movingLines 3s linear forwards;
+
+}
+
+@keyframes movingLines {
+    from {
+        stroke-dashoffset: 2800;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
